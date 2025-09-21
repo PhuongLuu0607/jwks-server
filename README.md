@@ -24,7 +24,6 @@ Verified against the provided blackbox test client.
 
 Project Structure
 jwks-server/
-│
 ├── main.py            # FastAPI server with JWKS + Auth endpoints
 ├── keys.py            # RSA key generation and JWK conversion
 ├── tests/test_app.py  # Pytest test suite
