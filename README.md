@@ -22,7 +22,7 @@ Supports ?expired=true to issue a JWT signed with an expired key.
 Includes pytest unit tests with >80% coverage.
 Verified against the provided blackbox test client.
 
-Project Structure
+Project Structure:
 jwks-server/
 main.py            # FastAPI server with JWKS + Auth endpoints
 keys.py            # RSA key generation and JWK conversion
