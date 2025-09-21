@@ -24,12 +24,12 @@ Verified against the provided blackbox test client.
 
 Project Structure:
 jwks-server/
-main.py            # FastAPI server with JWKS + Auth endpoints
-keys.py            # RSA key generation and JWK conversion
-tests/test_app.py  # Pytest test suite
-requirements.txt   # Dependencies
-README.md          # Project documentation
-screenshots/       #Screenshots of test client and test coverage
+main.py            # FastAPI server with JWKS + Auth endpoints,
+keys.py            # RSA key generation and JWK conversion,
+tests/test_app.py  # Pytest test suite,
+requirements.txt   # Dependencies,
+README.md          # Project documentation,
+screenshots/       #Screenshots of test client and test coverage.
 
 Install dependencies: pip install -r requirements.txt
 Run the Server: uvicorn main:app --reload --port 8080
